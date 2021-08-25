@@ -24,7 +24,7 @@ export function Navbar() {
 			window.removeEventListener("touchmove", callback);
 			window.removeEventListener("scroll", callback);
 		};
-	}, []);
+	}, [setScrolled]);
 
 	return (
 		<header

@@ -16,7 +16,7 @@ export default function Home() {
 				<li>
 					<a
 						href="https://github.com/edazpotato"
-						rel="noopener"
+						rel="noopener noreferrer"
 						target="_blank"
 					>
 						Github
@@ -25,7 +25,7 @@ export default function Home() {
 				<li>
 					<a
 						href="https://discord.gg/mzR7eeZ"
-						rel="noopener"
+						rel="noopener noreferrer"
 						target="_blank"
 					>
 						Discord guild
@@ -34,7 +34,7 @@ export default function Home() {
 				<li>
 					<a
 						href="https://youtube.com/channel/UCK1ME1J0XNbN31bCOV9UjKw"
-						rel="noopener"
+						rel="noopener noreferrer"
 						target="_blank"
 					>
 						YouTube channel
@@ -43,7 +43,7 @@ export default function Home() {
 				<li>
 					<a
 						href="https://twitter.com/edazpotato"
-						rel="noopener"
+						rel="noopener noreferrer"
 						target="_blank"
 					>
 						Twitter
@@ -52,7 +52,7 @@ export default function Home() {
 				<li>
 					<a
 						href="https://edazpotato.github.io"
-						rel="noopener"
+						rel="noopener noreferrer"
 						target="_blank"
 					>
 						Old website

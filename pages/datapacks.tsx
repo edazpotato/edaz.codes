@@ -109,9 +109,9 @@ export default function Datapacks(props: { datapacks: Datapack[] }) {
 							<p>{datapack.description}</p>
 							<ul>
 								{datapack.links.map((link) => (
-									<li>
+									<li key={link.url}>
 										<a
-											rel="noopener"
+											rel="noopener noreferrer"
 											href={link.url}
 											target="_blank"
 											download={link.download}

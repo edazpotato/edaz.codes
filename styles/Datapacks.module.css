@@ -19,6 +19,7 @@
 	padding: 1rem;
 	width: 100%;
 	border-bottom: 1px solid var(--shadow-colour);
+	margin-bottom: 50rem;
 }
 
 .datapackTitle {

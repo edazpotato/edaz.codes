@@ -10,8 +10,8 @@ export default function Home() {
 			<section className={styles.wrapper}>
 				<h1>Yo.</h1>
 				<h2>
-					I'm <span className={styles.name}>Edaz Potato</span>. I make{" "}
-					<em className={styles.italic}>cool as</em> stuff.
+					I{"'"}m <span className={styles.name}>Edaz Potato</span>. I
+					make <em className={styles.italic}>cool as</em> stuff.
 				</h2>
 				<nav className={styles.links}>
 					<a href="https://github.com/edazpotato" rel="noopener">

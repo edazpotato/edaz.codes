@@ -9,11 +9,7 @@ export function Navbar() {
 	useEffect(() => {
 		const callback = () => {
 			const pixels = Math.round(window.scrollY);
-			if (pixels > 0) {
-				if (!scrolled) setScrolled(true);
-			} else {
-				setScrolled(false);
-			}
+			setScrolled(pixels > 0)
 		};
 
 		window.addEventListener("touchmove", callback);

@@ -1,19 +1,28 @@
-.wrapper {
+.title {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center;
-	align-items: center; */
-	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 	text-align: center;
-	margin-top: 2rem;
+}
+
+.title h1 {
+	font-weight: 300;
+	font-size: 2rem;
+}
+
+.title h2 {
+	font-weight: 500;
+	font-size: 1.6rem;
 }
 
 .links {
-	margin-top: 5rem;
+	margin-top: 1rem;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 1rem;
+	list-style: none;
 }
 
 .name {

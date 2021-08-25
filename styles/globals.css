@@ -1,21 +1,61 @@
-html,
-body,
-#__next {
-	padding: 0;
-	margin: 0;
-	font-family: "Inter", sans-serif;
-}
-
-a {
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: underline;
+:root {
+	--background-colour: #ffffff;
+	--link-colour: #3386d3;
+	--text-colour: #000000;
+	--shadow-colour: rgba(0, 0, 0, 0.2);
+	--brand-colour: #cc3f3f;
+	--card-radius: 4px;
 }
 
 * {
 	box-sizing: border-box;
-	margin: 0;
 	padding: 0;
+	margin: 0;
 	border: 0;
+	font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+main {
+	width: 100%;
+	min-height: 100vh;
+}
+
+a {
+	color: var(--link-colour);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+article {
+	padding: 0.4rem;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+}
+
+@media screen and (min-width: 760px) {
+	main {
+		padding-top: 5rem;
+	}
+
+	article {
+		padding-left: 4rem;
+		padding-right: 4rem;
+		align-items: flex-start;
+	}
 }

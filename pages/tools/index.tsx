@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import styles from "../styles/Tools.module.css";
+import styles from "../../styles/Tools.module.css";
 import { useRouter } from "next/router";
 
 export default function Tools() {

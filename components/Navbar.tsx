@@ -9,7 +9,7 @@ export function Navbar() {
 	useEffect(() => {
 		const callback = () => {
 			const pixels = Math.round(window.scrollY);
-			setScrolled(pixels > 0)
+			setScrolled(pixels > 0);
 		};
 
 		window.addEventListener("touchmove", callback);
@@ -36,6 +36,9 @@ export function Navbar() {
 				</Link>
 				<Link href="/datapacks">
 					<a className={classes.link}>Datapacks</a>
+				</Link>
+				<Link href="/tools">
+					<a className={classes.link}>Tools</a>
 				</Link>
 			</nav>
 		</header>

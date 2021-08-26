@@ -21,6 +21,7 @@ import {
 import { useEffect, useState } from "react";
 
 import CloseIcon from "@material-ui/icons/Close";
+import Head from "next/head";
 import SettingsIcon from "@material-ui/icons/Settings";
 
 const nameSpace = "outlinr-v2-storage";
@@ -45,6 +46,9 @@ export default function Outlinr() {
 
 	return (
 		<>
+			<Head>
+				<title>Outlinr by Edazpotato</title>
+			</Head>
 			<Snackbar
 				open={savedSnackbarOpen}
 				onClose={() => setSavedSnackbarOpen(false)}

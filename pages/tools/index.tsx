@@ -9,7 +9,7 @@ export default function Tools() {
 	return (
 		<>
 			<Head>
-				<title>Datapacks by Edazpotato</title>
+				<title>Tools by Edazpotato</title>
 			</Head>
 			<h1 className={styles.title}>Tools I{"'"}ve made</h1>
 			<ul>

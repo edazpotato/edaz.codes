@@ -27,7 +27,7 @@ export default function Tools() {
 					>
 						Senutila
 					</a>{" "}
-					- Simple discord bot framework built around the interactions
+					- Simple Discord bot framework built around the Interactions
 					API.
 				</li>
 				<li>

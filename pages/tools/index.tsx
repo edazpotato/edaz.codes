@@ -30,6 +30,17 @@ export default function Tools() {
 					- Simple discord bot framework built around the interactions
 					API.
 				</li>
+				<li>
+					<a
+						href="https://edazpotato.github.io/whiteboard/"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						Whiteboard
+					</a>{" "}
+					- Very simple online drawing pad that sometimes saves to
+					localstorage.
+				</li>
 			</ul>
 		</>
 	);

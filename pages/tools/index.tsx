@@ -38,8 +38,8 @@ export default function Tools() {
 					>
 						Whiteboard
 					</a>{" "}
-					- Very simple online drawing pad that sometimes saves to
-					localstorage.
+					- Very simple online drawing pad that <em>sometimes</em>{" "}
+					saves to localstorage.
 				</li>
 			</ul>
 		</>

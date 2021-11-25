@@ -45,6 +45,21 @@ article {
 	flex-direction: column;
 	align-items: center;
 }
+h1 {
+	font-weight: bold;
+	font-size: 2rem;
+}
+h2 {
+	font-weight: normal;
+	font-size: 1.8rem;
+	margin-top: 1rem;
+}
+
+hr {
+	margin-top: 1rem;
+	min-width: 25%;
+	border-bottom: 1px solid var(--text-colour);
+}
 
 ul {
 	list-style: none;

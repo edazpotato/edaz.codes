@@ -17,12 +17,12 @@ import {
 	Tooltip,
 	Typography,
 	useMediaQuery,
-} from "@material-ui/core";
+} from "@mui/material";
 import { useEffect, useState } from "react";
 
-import CloseIcon from "@material-ui/icons/Close";
+import CloseIcon from "@mui/icons-material/Close";
 import Head from "next/head";
-import SettingsIcon from "@material-ui/icons/Settings";
+import SettingsIcon from "@mui/icons-material/Settings";
 
 const nameSpace = "outlinr-v2-storage";
 const nameSpaceSettingsAutosave = "outlinr-v2-setting-autosave";

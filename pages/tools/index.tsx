@@ -70,7 +70,7 @@ export default function Tools() {
 						>
 							Cool-looking dashboard
 						</a>{" "}
-						- It loks{" "}
+						- It looks{" "}
 						<em>
 							<strong>C O O L</strong>
 						</em>

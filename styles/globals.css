@@ -1,9 +1,9 @@
 :root {
-	--background-colour: #ffffff;
-	--link-colour: #3386d3;
+	--background-colour: #D3D3D3;
+	--link-colour: #01295F;
 	--text-colour: #000000;
 	--shadow-colour: rgba(0, 0, 0, 0.2);
-	--brand-colour: #cc3f3f;
+	--brand-colour: #1c77ac;
 	--card-radius: 4px;
 }
 

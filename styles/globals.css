@@ -22,6 +22,7 @@
 	margin: 0;
 	border: 0;
 	font-family: "Inter", sans-serif;
+	color: var(--text-colour);
 }
 
 html,

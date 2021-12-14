@@ -7,6 +7,15 @@
 	--card-radius: 4px;
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-colour: #121211;
+		--link-colour: #FFA500;
+		--text-colour: #000000;
+		--brand-colour: #1c77ac;
+	}
+}
+
 * {
 	box-sizing: border-box;
 	padding: 0;

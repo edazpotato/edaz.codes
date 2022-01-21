@@ -1,10 +1,20 @@
 :root {
-	--background-colour: #ffffff;
-	--link-colour: #3386d3;
+	--background-colour: #fff5f5;
+	--link-colour: #01295F;
 	--text-colour: #000000;
 	--shadow-colour: rgba(0, 0, 0, 0.2);
-	--brand-colour: #cc3f3f;
+	--brand-colour: #1c77ac;
 	--card-radius: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-colour: #121211;
+		--link-colour: #FFA500;
+		--text-colour: #FFFFFF;
+		--brand-colour: #1c77ac;
+		--shadow-colour: rgba(255, 255, 255, 0.2);
+	}
 }
 
 * {
@@ -13,6 +23,7 @@
 	margin: 0;
 	border: 0;
 	font-family: "Inter", sans-serif;
+	color: var(--text-colour);
 }
 
 html,
@@ -20,6 +31,7 @@ body {
 	padding: 0;
 	margin: 0;
 	width: 100%;
+	background-color: var(--background-colour);
 }
 
 main {
